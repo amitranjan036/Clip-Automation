@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[हिंदी]]>
+    </line>
+    <line>
+      <![CDATA[phone login is enabled]]>
+    </line>
+    <line>
+      <![CDATA[facebook login is enabled]]>
+    </line>
+    <line>
+      <![CDATA[gmail login is enabled]]>
+    </line>
+    <line>
+      <![CDATA[waited till burger icon loaded]]>
+    </line>
+    <line>
+      <![CDATA[android.widget.ImageView]]>
+    </line>
+    <line>
+      <![CDATA[is tagname is printed]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2018-05-02T09:43:30Z" name="Default suite" finished-at="2018-05-02T09:43:58Z" duration-ms="27769">
+    <groups>
+    </groups>
+    <test started-at="2018-05-02T09:43:30Z" name="Default test" finished-at="2018-05-02T09:43:58Z" duration-ms="27769">
+      <class name="clipscripts.VerifyLanguage">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:clipscripts.VerifyLanguage@22ef9844]" started-at="2018-05-02T09:43:30Z" name="preCondition" finished-at="2018-05-02T09:43:41Z" duration-ms="11254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testlanguagetext()[pri:1, instance:clipscripts.VerifyLanguage@22ef9844]" started-at="2018-05-02T09:43:41Z" name="testlanguagetext" finished-at="2018-05-02T09:43:42Z" duration-ms="1186" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[हिंदी]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testlanguagetext -->
+        <test-method signature="testgotologin()[pri:2, instance:clipscripts.VerifyLanguage@22ef9844]" started-at="2018-05-02T09:43:42Z" name="testgotologin" finished-at="2018-05-02T09:43:44Z" duration-ms="2153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgotologin -->
+        <test-method signature="testloginmethodsenabled()[pri:3, instance:clipscripts.VerifyLanguage@22ef9844]" started-at="2018-05-02T09:43:44Z" name="testloginmethodsenabled" finished-at="2018-05-02T09:43:45Z" duration-ms="514" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[phone login is enabled]]>
+            </line>
+            <line>
+              <![CDATA[facebook login is enabled]]>
+            </line>
+            <line>
+              <![CDATA[gmail login is enabled]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testloginmethodsenabled -->
+        <test-method signature="testgmaillogin()[pri:4, instance:clipscripts.VerifyLanguage@22ef9844]" started-at="2018-05-02T09:43:45Z" name="testgmaillogin" finished-at="2018-05-02T09:43:52Z" duration-ms="7407" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[waited till burger icon loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testgmaillogin -->
+        <test-method signature="testdrawerpage()[pri:5, instance:clipscripts.VerifyLanguage@22ef9844]" started-at="2018-05-02T09:43:52Z" name="testdrawerpage" finished-at="2018-05-02T09:43:54Z" duration-ms="1660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdrawerpage -->
+        <test-method signature="testsettingpage()[pri:6, instance:clipscripts.VerifyLanguage@22ef9844]" started-at="2018-05-02T09:43:54Z" name="testsettingpage" finished-at="2018-05-02T09:43:58Z" duration-ms="3548" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[android.widget.ImageView]]>
+            </line>
+            <line>
+              <![CDATA[is tagname is printed]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testsettingpage -->
+      </class> <!-- clipscripts.VerifyLanguage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
